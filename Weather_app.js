@@ -7,6 +7,7 @@ function Kelvin(){
     let Newton = Math.floor(celsius* (33/100));
     console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
     console.log(`The temperature is ${Newton} degrees Newton.`)
+    console.log(`The temperature is ${celsius} degrees in Celsius.`)
     return null
 }
 Kelvin();
